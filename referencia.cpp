@@ -10,9 +10,9 @@ void porvalor(int a){
     cout << "Dentro de porValor, a = " << a << endl;
 
 }
-void porReferencia(int &a){
+void porReferencia(int a){
     a = 10;
-    cout << "Dentro de porReferencia, a = " << a << endl;
+    cout << "Dentro de porReferencia, a = " << &a << endl;
 }
 
 int main(){
